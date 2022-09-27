@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOUTUBE APP II</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body onload="loading()">
+    <div id="nav">
+        <div id="logocont">
+            <div><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em"
+                    width="1em" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z"></path>
+                </svg></div>
+            <div>
+                <img id="logo"
+                    src="https://static.vecteezy.com/system/resources/previews/003/206/623/original/youtube-editorial-app-icon-free-vector.jpg"
+                    alt="">
+            </div>
+        </div>
+        <div id="srch">
+            <input type="text" placeholder="Search" id="inpt">
+            <button id="btn"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                    height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M10.442 10.442a1 1 0 011.415 0l3.85 3.85a1 1 0 01-1.414 1.415l-3.85-3.85a1 1 0 010-1.415z"
+                        clip-rule="evenodd"></path>
+                    <path fill-rule="evenodd"
+                        d="M6.5 12a5.5 5.5 0 100-11 5.5 5.5 0 000 11zM13 6.5a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z"
+                        clip-rule="evenodd"></path>
+                </svg></button>
+            <button id="mic"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                    height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5 3a3 3 0 016 0v5a3 3 0 01-6 0V3z"></path>
+                    <path fill-rule="evenodd"
+                        d="M3.5 6.5A.5.5 0 014 7v1a4 4 0 008 0V7a.5.5 0 011 0v1a5 5 0 01-4.5 4.975V15h3a.5.5 0 010 1h-7a.5.5 0 010-1h3v-2.025A5 5 0 013 8V7a.5.5 0 01.5-.5z"
+                        clip-rule="evenodd"></path>
+                </svg></button>
+        </div>
+        <div id="last">
+            <div><svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M7 7H9V9H7V7Z" fill="currentColor"></path><path d="M11 7H13V9H11V7Z" fill="currentColor"></path><path d="M17 7H15V9H17V7Z" fill="currentColor"></path><path d="M7 11H9V13H7V11Z" fill="currentColor"></path><path d="M13 11H11V13H13V11Z" fill="currentColor"></path><path d="M15 11H17V13H15V11Z" fill="currentColor"></path><path d="M9 15H7V17H9V15Z" fill="currentColor"></path><path d="M11 15H13V17H11V15Z" fill="currentColor"></path><path d="M17 15H15V17H17V15Z" fill="currentColor"></path></svg></div>
+            <div><svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z">
+                    </path>
+                </svg></div>
+
+            <div id="signin">
+                <div>
+                    <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z">
+                        </path>
+                    </svg>
+                </div>
+                <div>
+                    SIGN IN
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="main">
+        <div id="left">
+            <div>
+                <div>
+                    <div><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M946.5 505L534.6 93.4a31.93 31.93 0 0 0-45.2 0L77.5 505c-12 12-18.8 28.3-18.8 45.3 0 35.3 28.7 64 64 64h43.4V908c0 17.7 14.3 32 32 32H448V716h112v224h265.9c17.7 0 32-14.3 32-32V614.3h43.4c17 0 33.3-6.7 45.3-18.8 24.9-25 24.9-65.5-.1-90.5z"></path></svg></div>
+                <div><p>Home</p>
+                </div>
+                </div>
+                <div>
+                    <div><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 496 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M347.94 129.86L203.6 195.83a31.938 31.938 0 0 0-15.77 15.77l-65.97 144.34c-7.61 16.65 9.54 33.81 26.2 26.2l144.34-65.97a31.938 31.938 0 0 0 15.77-15.77l65.97-144.34c7.61-16.66-9.54-33.81-26.2-26.2zm-77.36 148.72c-12.47 12.47-32.69 12.47-45.16 0-12.47-12.47-12.47-32.69 0-45.16 12.47-12.47 32.69-12.47 45.16 0 12.47 12.47 12.47 32.69 0 45.16zM248 8C111.03 8 0 119.03 0 256s111.03 248 248 248 248-111.03 248-248S384.97 8 248 8zm0 448c-110.28 0-200-89.72-200-200S137.72 56 248 56s200 89.72 200 200-89.72 200-200 200z"></path></svg></div>
+                    <div><p>Explore</p></div>
+                </div>
+                <div>
+                    <div><svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><title></title><path d="M9.577 15.606L15.606 12 9.577 8.394zm11.38-2.423l2.536 1.972q.394.282.113.789l-2.423 4.169q-.225.394-.732.225l-2.986-1.183q-1.183.845-2.028 1.183l-.451 3.155q-.113.507-.563.507H9.577q-.45 0-.563-.507l-.45-3.155q-1.071-.45-2.029-1.183L3.55 20.338q-.507.169-.732-.225l-2.423-4.17q-.281-.506.113-.788l2.535-1.972Q2.986 12.79 2.986 12t.056-1.183L.507 8.845q-.394-.282-.113-.789l2.423-4.169q.225-.394.732-.225l2.986 1.183Q7.718 4 8.563 3.662L9.014.507Q9.127 0 9.577 0h4.846q.45 0 .563.507l.45 3.155q1.071.45 2.029 1.183l2.986-1.183q.507-.169.732.225l2.423 4.17q.281.506-.113.788l-2.535 1.972q.056.394.056 1.183t-.056 1.183Z"></path></svg></div>
+                    <div><p>Shorts</p></div>
+                </div>
+                <div>
+                    <div><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M20 8H4V6h16v2zm-2-6H6v2h12V2zm4 10v8c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2v-8c0-1.1.9-2 2-2h16c1.1 0 2 .9 2 2zm-6 4l-6-3.27v6.53L16 16z"></path></svg></div>
+                    <div><p>Subscriptions</p></div>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <div>
+                    <div><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8 12.5v-9l6 4.5-6 4.5z"></path></svg></div>
+                    <div><p>Library</p></div>
+                </div>
+                <div>
+                    <div><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M13.507 12.324a7 7 0 0 0 .065-8.56A7 7 0 0 0 2 4.393V2H1v3.5l.5.5H5V5H2.811a6.008 6.008 0 1 1-.135 5.77l-.887.462a7 7 0 0 0 11.718 1.092zm-3.361-.97l.708-.707L8 7.792V4H7v4l.146.354 3 3z"></path></svg></div>
+                    <div><p>History</p></div>
+                </div>
+            </div>
+            <hr>
+            <div id="signinbox">
+                <p>Sign in to like videos, comment and subscribe.</p>
+                <div id="signinsec">
+                    <div>
+                        <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div>
+                        SIGN IN
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <h3>BEST OF YOUTUBE</h3>
+                <div>
+                 <div><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 5h-3v5.5c0 1.38-1.12 2.5-2.5 2.5S10 13.88 10 12.5s1.12-2.5 2.5-2.5c.57 0 1.08.19 1.5.51V5h4v2zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6z"></path></svg></div>
+                 <div><p>Music</p></div>
+                </div>
+                <div>
+                    <div><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 416 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M272 96c26.51 0 48-21.49 48-48S298.51 0 272 0s-48 21.49-48 48 21.49 48 48 48zM113.69 317.47l-14.8 34.52H32c-17.67 0-32 14.33-32 32s14.33 32 32 32h77.45c19.25 0 36.58-11.44 44.11-29.09l8.79-20.52-10.67-6.3c-17.32-10.23-30.06-25.37-37.99-42.61zM384 223.99h-44.03l-26.06-53.25c-12.5-25.55-35.45-44.23-61.78-50.94l-71.08-21.14c-28.3-6.8-57.77-.55-80.84 17.14l-39.67 30.41c-14.03 10.75-16.69 30.83-5.92 44.86s30.84 16.66 44.86 5.92l39.69-30.41c7.67-5.89 17.44-8 25.27-6.14l14.7 4.37-37.46 87.39c-12.62 29.48-1.31 64.01 26.3 80.31l84.98 50.17-27.47 87.73c-5.28 16.86 4.11 34.81 20.97 40.09 3.19 1 6.41 1.48 9.58 1.48 13.61 0 26.23-8.77 30.52-22.45l31.64-101.06c5.91-20.77-2.89-43.08-21.64-54.39l-61.24-36.14 31.31-78.28 20.27 41.43c8 16.34 24.92 26.89 43.11 26.89H384c17.67 0 32-14.33 32-32s-14.33-31.99-32-31.99z"></path></svg></div>
+                    <div><p>Sports</p></div>
+                </div>
+                <div>
+                    <div><svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><title></title><path d="M24 13.2v-6l-6-3.6-6 3.6-6-3.6-6 3.6v6l12 7.2zM8.4 10.8H6v2.4H4.8v-2.4H2.4V9.6h2.4V7.2H6v2.4h2.4zm7.2 2.4a1.2 1.2 0 01-1.2-1.2c0-.66.54-1.2 1.2-1.2.66 0 1.2.54 1.2 1.2 0 .66-.54 1.2-1.2 1.2zm3.6-2.4A1.2 1.2 0 0118 9.6c0-.66.54-1.2 1.2-1.2.66 0 1.2.54 1.2 1.2 0 .66-.54 1.2-1.2 1.2Z"></path></svg></div>
+                    <div><p>Gaming</p></div>
+                </div>
+                <div>
+                    <div><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><g><path fill="none" d="M0 0h24v24H0z"></path><path d="M2 3.993A1 1 0 0 1 2.992 3h18.016c.548 0 .992.445.992.993v16.014a1 1 0 0 1-.992.993H2.992A.993.993 0 0 1 2 20.007V3.993zM4 5v2h2V5H4zm14 0v2h2V5h-2zM4 9v2h2V9H4zm14 0v2h2V9h-2zM4 13v2h2v-2H4zm14 0v2h2v-2h-2zM4 17v2h2v-2H4zm14 0v2h2v-2h-2z"></path></g></svg></div>
+                    <div><p>Films</p></div>
+                </div>
+                <div>
+                    <div><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><g><path fill="none" d="M0 0h24v24H0z"></path><path d="M19 22H5a3 3 0 0 1-3-3V3a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v7h4v9a3 3 0 0 1-3 3zm-1-10v7a1 1 0 0 0 2 0v-7h-2zM5 6v6h6V6H5zm0 7v2h10v-2H5zm0 3v2h10v-2H5zm2-8h2v2H7V8z"></path></g></svg></div>
+                    <div><p>News</p></div>
+                </div>
+                <div>
+                    <div><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><g><path fill="none" d="M0 0h24v24H0z"></path><path fill-rule="nonzero" d="M16 4a1 1 0 0 1 1 1v4.2l5.213-3.65a.5.5 0 0 1 .787.41v12.08a.5.5 0 0 1-.787.41L17 14.8V19a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h14zM7.4 8.829a.4.4 0 0 0-.392.32L7 9.228v5.542a.4.4 0 0 0 .542.374l.073-.036 4.355-2.772a.4.4 0 0 0 .063-.624l-.063-.05L7.615 8.89A.4.4 0 0 0 7.4 8.83z"></path></g></svg></div>
+                    <div><p>Live</p></div>
+                </div>
+                <div>
+                    <div><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 640 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M631.2 96.5L436.5 0C416.4 27.8 371.9 47.2 320 47.2S223.6 27.8 203.5 0L8.8 96.5c-7.9 4-11.1 13.6-7.2 21.5l57.2 114.5c4 7.9 13.6 11.1 21.5 7.2l56.6-27.7c10.6-5.2 23 2.5 23 14.4V480c0 17.7 14.3 32 32 32h256c17.7 0 32-14.3 32-32V226.3c0-11.8 12.4-19.6 23-14.4l56.6 27.7c7.9 4 17.5.8 21.5-7.2L638.3 118c4-7.9.8-17.6-7.1-21.5z"></path></svg></div>
+                    <div><p>Fashion</p></div>
+                </div>
+                <div>
+                    <div><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M247 18.656c-80.965 0-146.875 65.02-146.875 145.625 0 45.63 15.758 67 33.313 94.845 11.706 18.57 23.767 39.91 30.53 70.563h165.095c6.728-31.387 18.91-53.12 30.718-71.875 17.58-27.92 33.314-48.912 33.314-93.532 0-80.66-65.127-145.624-146.094-145.624zm-99.78 127.906L170.437 167 210 201.813l31.188-34.125 6.78-7.438 6.907 7.344 30.75 32.72 39.97-33.47 22.686-19-7.655 28.594L304.75 310.28l-18.063-4.842 28.22-105.25-24.032 20.125-6.78 5.656-6.033-6.44-29.906-31.78-30.562 33.438-6.188 6.78-6.875-6.062-23.25-20.437 27.94 104.218-18.064 4.812-35.937-134.063-8-29.875zm22.593 201.813V389.5L315 348.375H169.812zm153.593 17.063l-153.594 43.53v29.438l153.594-43.5v-29.47zm0 48.875L203.97 448.156h119.436v-33.844zm-132.562 52.53v20.533h113.282v-20.53h-113.28z"></path></svg></div>
+                    <div><p>Learning</p></div>
+                </div>
+                <div>
+                    <div>
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" version="1.1" id="Layer_1" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><polygon points="8.48,13.14 9.21,13.14 9.21,16.75 9.91,16.75 9.91,13.14 10.64,13.14 10.64,12.53 8.48,12.53 "></polygon><path d="M12.17,16c-0.12,0.14-0.53,0.42-0.53,0.02v-2.39h-0.62v2.61c0,0.79,0.79,0.58,1.16,0.17v0.34h0.62v-3.12h-0.62V16H12.17z"></path><path d="M14.48,13.61c-0.36,0-0.59,0.27-0.59,0.27v-1.36h-0.63v4.23h0.63v-0.24c0,0,0.21,0.28,0.59,0.28c0.33,0,0.58-0.29,0.58-0.69
+                            c0,0,0-1.26,0-1.73S14.84,13.61,14.48,13.61z M14.41,16.02c0,0.23-0.16,0.34-0.37,0.25c-0.05-0.02-0.1-0.06-0.15-0.11v-1.94
+                            c0.04-0.04,0.09-0.07,0.13-0.1c0.22-0.11,0.39,0.06,0.39,0.29L14.41,16.02L14.41,16.02z"></path><path d="M16.72,15.86c0,0.24-0.13,0.4-0.28,0.41c-0.16,0.01-0.32-0.12-0.32-0.41v-0.59h1.19v-0.8c0-0.29-0.11-0.51-0.26-0.66
+                            c-0.17-0.16-0.4-0.24-0.63-0.24c-0.22,0-0.45,0.07-0.63,0.21c-0.19,0.15-0.31,0.38-0.31,0.69v1.4c0,0.28,0.09,0.5,0.23,0.66
+                            c0.17,0.18,0.4,0.28,0.64,0.29c0.29,0.01,0.6-0.11,0.78-0.36c0.11-0.15,0.18-0.35,0.18-0.59v-0.16h-0.59
+                            C16.72,15.71,16.72,15.76,16.72,15.86z M16.12,14.47c0-0.17,0.1-0.37,0.29-0.37s0.31,0.18,0.31,0.37s0,0.32,0,0.32h-0.6
+                            C16.12,14.78,16.12,14.64,16.12,14.47z"></path><path d="M12.97,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9S17.94,3,12.97,3z M14.55,6.37h0.8v2.68c0,0.17,0.08,0.17,0.11,0.17
+                            c0.12,0,0.3-0.13,0.39-0.22V6.36h0.8V9.9h-0.8V9.59c-0.11,0.1-0.22,0.18-0.33,0.24c-0.15,0.08-0.29,0.11-0.43,0.11
+                            c-0.18,0-0.31-0.06-0.41-0.17c-0.09-0.11-0.13-0.28-0.13-0.49V6.37z M12,7.3c0-0.55,0.45-1,1-1s1,0.45,1,1V9c0,0.55-0.45,1-1,1
+                            s-1-0.45-1-1V7.3z M9.92,5.15l0.48,1.76l0.49-1.76h0.91l-0.94,2.78V9.9H9.97V7.93L9.01,5.15H9.92z M17.82,17.69
+                            c-0.51,0.5-4.83,0.51-4.83,0.51s-4.31-0.01-4.83-0.51c-0.51-0.5-0.51-2.99-0.51-3.01c0-0.01,0-2.5,0.51-3.01
+                            c0.51-0.5,4.83-0.51,4.83-0.51s4.31,0.01,4.83,0.51c0.51,0.5,0.52,2.99,0.52,3.01C18.34,14.68,18.34,17.18,17.82,17.69z"></path><path d="M12.98,9.35c0.17,0,0.25-0.1,0.26-0.26v-1.9c0-0.13-0.13-0.24-0.25-0.24s-0.25,0.1-0.25,0.24v1.9
+                            C12.74,9.24,12.81,9.34,12.98,9.35z"></path></svg>
+                    </div>
+                    <div><p>Spotlight</p></div>
+                </div>
+                <div>
+                    <div>
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M21 6H3c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-10 7H8v3H6v-3H3v-2h3V8h2v3h3v2zm4.5 2c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm4-3c-.83 0-1.5-.67-1.5-1.5S18.67 9 19.5 9s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"></path></svg>
+                    </div>
+                    <div><p>360° Video</p></div>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <div>
+                    <div><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16 8A8 8 0 110 8a8 8 0 0116 0zM8.5 4a.5.5 0 00-1 0v3.5H4a.5.5 0 000 1h3.5V12a.5.5 0 001 0V8.5H12a.5.5 0 000-1H8.5V4z" clip-rule="evenodd"></path></svg></div>
+                    <div><p>Browse Channels</p></div>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <h3>MORE FROM YOUTUBE</h3>
+                <div>
+                    <div><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg></div>
+                    <div><p>YouTube Premium</p></div>
+                </div>
+                <div>
+                    <div><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M138.188 38.875C67.478 79.483 19.624 155.295 19.624 242.688c0 87.858 48.383 163.966 119.72 204.406-47.45-46.694-78.25-120.545-78.25-204.406 0-83.27 30.218-157.06 77.093-203.813zm237.687 2.313c45.574 46.86 74.75 119.59 74.75 201.5 0 82.128-29.53 154.623-75.313 201.468C444 403.043 490.344 328.56 490.344 242.686c0-85.87-46.022-160.33-114.47-201.5zm-179.28 46.718c-61.425 24.617-105.126 84.56-105.126 154.78 0 70.413 43.995 130.262 105.686 154.75-41.348-30.252-69.47-88.174-69.47-154.748 0-66.367 27.774-124.45 68.908-154.782zm142.5 8.78c35.18 31.963 57.81 85.566 57.81 146 0 61.134-23.1 114.77-58.967 146.595 52.006-28.25 87.593-83.246 87.593-146.592 0-62.886-35.052-117.566-86.436-146zm-115.22 44.064c-42.65 14.34-73.125 54.454-73.125 101.938 0 47.91 30.968 88.504 74.22 102.5-27.047-18.556-45.97-57.28-45.97-102.5 0-44.573 18.457-83.072 44.875-101.938zm78.094 3.344c23.836 19.926 39.342 56.72 39.342 98.594 0 42.514-15.99 79.48-40.437 99.187 38.416-16.463 65.375-54.746 65.375-99.188 0-44-26.476-81.867-64.28-98.593zM262 211.344c-20.3 0-36.75 16.45-36.75 36.75 0 15.484 9.573 28.743 23.125 34.156v213.125h27.25V282.25c13.558-5.41 23.125-18.668 23.125-34.156 0-20.3-16.45-36.75-36.75-36.75z"></path></svg></div>
+                    <div><p>Live</p></div>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <div>
+                    <div><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M924.8 625.7l-65.5-56c3.1-19 4.7-38.4 4.7-57.8s-1.6-38.8-4.7-57.8l65.5-56a32.03 32.03 0 0 0 9.3-35.2l-.9-2.6a443.74 443.74 0 0 0-79.7-137.9l-1.8-2.1a32.12 32.12 0 0 0-35.1-9.5l-81.3 28.9c-30-24.6-63.5-44-99.7-57.6l-15.7-85a32.05 32.05 0 0 0-25.8-25.7l-2.7-.5c-52.1-9.4-106.9-9.4-159 0l-2.7.5a32.05 32.05 0 0 0-25.8 25.7l-15.8 85.4a351.86 351.86 0 0 0-99 57.4l-81.9-29.1a32 32 0 0 0-35.1 9.5l-1.8 2.1a446.02 446.02 0 0 0-79.7 137.9l-.9 2.6c-4.5 12.5-.8 26.5 9.3 35.2l66.3 56.6c-3.1 18.8-4.6 38-4.6 57.1 0 19.2 1.5 38.4 4.6 57.1L99 625.5a32.03 32.03 0 0 0-9.3 35.2l.9 2.6c18.1 50.4 44.9 96.9 79.7 137.9l1.8 2.1a32.12 32.12 0 0 0 35.1 9.5l81.9-29.1c29.8 24.5 63.1 43.9 99 57.4l15.8 85.4a32.05 32.05 0 0 0 25.8 25.7l2.7.5a449.4 449.4 0 0 0 159 0l2.7-.5a32.05 32.05 0 0 0 25.8-25.7l15.7-85a350 350 0 0 0 99.7-57.6l81.3 28.9a32 32 0 0 0 35.1-9.5l1.8-2.1c34.8-41.1 61.6-87.5 79.7-137.9l.9-2.6c4.5-12.3.8-26.3-9.3-35zM788.3 465.9c2.5 15.1 3.8 30.6 3.8 46.1s-1.3 31-3.8 46.1l-6.6 40.1 74.7 63.9a370.03 370.03 0 0 1-42.6 73.6L721 702.8l-31.4 25.8c-23.9 19.6-50.5 35-79.3 45.8l-38.1 14.3-17.9 97a377.5 377.5 0 0 1-85 0l-17.9-97.2-37.8-14.5c-28.5-10.8-55-26.2-78.7-45.7l-31.4-25.9-93.4 33.2c-17-22.9-31.2-47.6-42.6-73.6l75.5-64.5-6.5-40c-2.4-14.9-3.7-30.3-3.7-45.5 0-15.3 1.2-30.6 3.7-45.5l6.5-40-75.5-64.5c11.3-26.1 25.6-50.7 42.6-73.6l93.4 33.2 31.4-25.9c23.7-19.5 50.2-34.9 78.7-45.7l37.9-14.3 17.9-97.2c28.1-3.2 56.8-3.2 85 0l17.9 97 38.1 14.3c28.7 10.8 55.4 26.2 79.3 45.8l31.4 25.8 92.8-32.9c17 22.9 31.2 47.6 42.6 73.6L781.8 426l6.5 39.9zM512 326c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm79.2 255.2A111.6 111.6 0 0 1 512 614c-29.9 0-58-11.7-79.2-32.8A111.6 111.6 0 0 1 400 502c0-29.9 11.7-58 32.8-79.2C454 401.6 482.1 390 512 390c29.9 0 58 11.6 79.2 32.8A111.6 111.6 0 0 1 624 502c0 29.9-11.7 58-32.8 79.2z"></path></svg></div>
+                    <div><p>Settings</p></div>
+                </div>
+                <div>
+                    <div><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M880 305H624V192c0-17.7-14.3-32-32-32H184v-40c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v784c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8V640h248v113c0 17.7 14.3 32 32 32h416c17.7 0 32-14.3 32-32V337c0-17.7-14.3-32-32-32zM184 568V232h368v336H184zm656 145H504v-73h112c4.4 0 8-3.6 8-8V377h216v336z"></path></svg></div>
+                    <div><p>Report history</p></div>
+                </div>
+                <div>
+                    <div><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 15A7 7 0 108 1a7 7 0 000 14zm0 1A8 8 0 108 0a8 8 0 000 16z" clip-rule="evenodd"></path><path d="M5.25 6.033h1.32c0-.781.458-1.384 1.36-1.384.685 0 1.313.343 1.313 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.007.463h1.307v-.355c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.326 0-2.786.647-2.754 2.533zm1.562 5.516c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"></path></svg></div>
+                    <div><p>Help</p></div>
+                </div>
+                <div>
+                    <div><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M14 1H2a1 1 0 00-1 1v12a1 1 0 001 1h12a1 1 0 001-1V2a1 1 0 00-1-1zM2 0a2 2 0 00-2 2v12a2 2 0 002 2h12a2 2 0 002-2V2a2 2 0 00-2-2H2z" clip-rule="evenodd"></path><path d="M7.002 11a1 1 0 112 0 1 1 0 01-2 0zM7.1 4.995a.905.905 0 111.8 0l-.35 3.507a.552.552 0 01-1.1 0L7.1 4.995z"></path></svg></div>
+                    <div><p>Send feedback</p></div>
+                </div>
+            </div>
+            <hr>
+            <div><p>AboutPressCopyrightContact usCreatorAdvertiseDevelopers
+                TermsPrivacyPolicy & SafetyHow YouTube worksTest new features
+                © 2022 Google LLC</p></div>
+        </div>
+        <div id="right">
+            <div id="sort"></div>
+            <div id="results"></div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="index.js"></script>

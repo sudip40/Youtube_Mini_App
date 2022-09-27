@@ -1,0 +1,163 @@
+#nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+    padding-right: 5px;
+    border-bottom: 1px solid lightgrey;
+}
+#logo{
+    height: 100%;
+    margin-left: 10px;
+}
+#logocont{
+    padding: 10px 50px 10px 20px;
+    display: flex;
+    justify-content: start;
+    width: 10%;
+}
+#logocont>div:first-child{
+    display: flex;
+    align-items: center;
+}
+#srch{
+    width: 35%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+input{
+    width: 80%;
+    height: 55%;
+    font-size: 20px;
+}
+#btn{
+    width: 9%;
+    height: 63%;
+    font-size: 20px;
+}
+#mic{
+    border-radius: 50%;
+    font-size: 20px;
+   height: 45px;
+   width: 45px;
+   margin-left: 10px;
+   border: none;
+   text-align: center;
+}
+#last{
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+    align-items: center;
+    font-size: 25px;
+}
+#signin{
+    color: #4889df;
+    border: 2px solid #4889df;
+    padding: 5px 11px 5px 11px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#main{
+    display: flex;
+    width: 100%;
+}
+#signin>div:first-child{
+font-size: 40px;
+margin-right: 10px;
+height: 100%;
+display: flex;
+align-items: center;
+}
+
+#signin>div:last-child{
+    font-size: 20px;
+    font-weight: bold;
+}
+#left{
+    width: 15%;
+    height: 100vh;
+    overflow: scroll;
+    margin-top: 10px;
+}
+#right{
+    width: 85%;
+    height: 100vh;
+    overflow: scroll;
+}
+#results{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    grid-gap:20px;
+    padding: 20px;
+}
+#results>div>img{
+    width: 100%;
+    height: 60%;
+}
+#results>div:hover{
+    background-color: lightgrey;
+    padding: 10px;
+}
+#last>div:first-child{
+    font-size: 50px;
+    padding-top: 2%;
+}
+#left>div>div{
+    display: flex;
+    justify-content: start;
+    /* border: 1px solid red; */
+    font-size: 25px;
+    height: 5vh;
+}
+#left>div>div>div{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+#left>div>div>div:last-child{
+    margin-left: 30px;
+}
+#left>div>div>p{
+    font-size: 15px;
+    font-weight: lighter;
+}
+#signinbox{
+    padding: 10px 40px;
+    font-size: 18px;
+    
+}
+#signinsec{
+    font-size: 10px;
+    padding: 0px;
+    color: #4889df;
+    border: 1px solid #4889df;
+}
+#signinsec>div:first-child{
+    font-size: 30px;
+    margin-right: 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+#signinsec>div:last-child{
+    font-size: 20px;
+    font-weight: bold;
+}
+h3{
+    text-align: center;
+    color: rgb(98, 96, 96);
+}
+
+#left>div>div:hover{
+    background-color: lightgrey;
+}
+p{
+    font-size: 20px;
+    color: grey;
+}
